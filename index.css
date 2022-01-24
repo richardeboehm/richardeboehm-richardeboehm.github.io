@@ -1,0 +1,66 @@
+html {
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 20px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+li {
+	margin: 0;
+	padding: 20px;
+	flex: 1;
+	font-size: 20px;
+	text-align: right;
+}
+
+p {
+	padding: 20px;
+	margin: 0;
+	font-size: 20px;
+}
+
+#content {
+	width: 100vw;
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#sidebar {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	height: 100vh;
+	box-sizing: border-box;
+	flex: 0 0 25%;
+}
+
+#sidebaritems {
+	padding: 0;
+	margin: 0;
+	height: 25vh;
+	list-style-type: none;
+	color: #FFF;
+	float: right;
+}
+
+#welcome {
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	box-sizing: border-box;
+	height: 100vh;
+	flex: 0 0 75%;
+}
